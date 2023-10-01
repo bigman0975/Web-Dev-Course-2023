@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+/* group method */
+h1, h2{
+    color: blueviolet;
+}
+/* child method */
+.box > p{
+    color: firebrick;
+}
+/* decendent method */
+.box li{
+    color:blue;
+}
+/* Chaining Method */
+li.done{
+    color: seagreen;
+}
+/* combining selectors */
+ul p.done{
+    font-size: .5rem;
+}
